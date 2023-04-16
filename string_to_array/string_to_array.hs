@@ -4,9 +4,7 @@ stringToArray :: String -> [String]
 stringToArray str = filter (not . null) $ map (filter isAlphaNum) $ words str
 
 main = do
-    let emptyTest = ""
-    let arr0 = stringToArray emptyTest
+    let arr0 = stringToArray ""
+    let arr1 = stringToArray "Mary had a little lamb"
     print arr0
-    let nonEmptyTest = "Mary had a little lamb"
-    let arr1 = stringToArray nonEmptyTest
     print arr1
