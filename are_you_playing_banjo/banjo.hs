@@ -18,6 +18,9 @@ areYouPlayingBanjo name
     | otherwise = name ++ " does not play banjo"
 
 main = do
-    let input = "Roger"
-    let result = areYouPlayingBanjo input
-    putStrLn result
+    let test0 = areYouPlayingBanjo "Roger"
+    let test1 = areYouPlayingBanjo "Peter"
+    let test2 = areYouPlayingBanjo "Dave"
+    putStrLn test0
+    putStrLn test1
+    putStrLn test2
