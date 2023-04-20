@@ -23,5 +23,3 @@ main = do
     print test0
     print test1
     print test2
-
-    
