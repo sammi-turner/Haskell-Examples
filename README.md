@@ -6,11 +6,11 @@ Haskell New Project (hnp)
 
 ```
 hnp() {
-	take $1 && touch main.hs
+  take $1 && touch main.hs
 }
 ```
 
-# Useful shell aliases
+## Useful shell aliases
 
 Haskell Compile and Run (hcr)
 
