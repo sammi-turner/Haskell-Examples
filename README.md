@@ -1,2 +1,3 @@
-# Haskell-Katas
-Solutions to Codewars katas in Haskell.
+# Haskell Examples
+
+Small example programs.
