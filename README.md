@@ -6,7 +6,7 @@ Haskell New Project (hnp)
 
 ```
 hnp() {
-  take $1 && touch main.hs
+  mkdir $1 && cd $1 && touch main.hs
 }
 ```
 
